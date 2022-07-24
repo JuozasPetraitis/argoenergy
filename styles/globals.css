@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Melodrama';
+  src: url('../fonts/Melodrama.ttf');
+  font-weight: 100 900;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: 'Excon';
+  src: url('../fonts/Excon.ttf');
+  font-weight: 100 900;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Ranade';
+  src: url('../fonts/Ranade.ttf');
+  font-weight: 100 900;
 }
